@@ -34,3 +34,14 @@ he splice junctions database. Ideally, this length should be equal to the ReadLe
 STAR --runThreadN 8 --genomeDir <path>/ref_genome/ \
         --readFilesIn <path>/${i}_1P.fq.gz, <path>/${i}_2P.fq.gz \
         --readFilesCommand zcat --outFileNamePrefix <path>/${i}.
+
+## 6. Count the reads mapped to each gene 
+
+#featureCounts is a function of subreads, which is installed in soft
+featureCounts -p --countReadPairs \
+        -a <path>/LdNA.gtf \
+        -o table_counts_final_anno.txt \
+        <path>/*.sorted.bam
+
+# -p flag is required to indicate to featureCounts that the reads are paired.
+# --countReadPairs should be added too with -p. 
