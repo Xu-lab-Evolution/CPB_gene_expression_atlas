@@ -1,0 +1,19 @@
+### Short-reads pipeline ###
+
+## 1. Create the index file
+
+STAR --runThreadN 8 --runMode genomeGenerate --genomeDir <path>/ref_genome/ \
+        --genomeFastaFiles <path>/ref_genome/Leptinotarsa_decemlineata.fa \
+        --sjdbGTFfile <path>/annotation/Leptinotarsa_decemlineata.gff3 --sjdbOverhang 139 \
+        --genomeSAindexNbases 13
+
+# --sjdbOverhang specifies the length of the genomic sequence around the annotated junction to be used in constructing t
+he splice junctions database. Ideally, this length should be equal to the ReadLength-1
+# The illumina reads are 150 pb long and I removed the 10th first pb, which is why sjdbOverhang=139
+
+## 2. Align the reads to the genome
+
+STAR --runThreadN 8 --genomeDir <path>/ref_genome/ \
+        --readFilesIn <path>/${i}_1P.fq.gz
+, <path>/${i}_2P.fq.gz \
+        --readFilesCommand zcat --outFileNamePrefix <path>/${i}.
