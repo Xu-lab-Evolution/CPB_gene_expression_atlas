@@ -1,6 +1,24 @@
 ### Short-reads pipeline ###
 
-## 1. Create the index file
+## 1. Quality check n°1
+
+fastqc ${i}_?P.fq.gz
+
+## 2. "Clean" the reads 
+
+raw_data_path=<path>
+
+java -Xmx4G -jar <path>/Trimmomatic-0.39/trimmomatic-0.39.jar PE \
+-threads 2 ${raw_data_path}/${i}_1.fq.gz ${raw_data_path}/${i}_2.fq.gz \
+-baseout ${i}.fq.gz \
+ILLUMINACLIP:<path>/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 \
+SLIDINGWINDOW:4:15 MINLEN:36 HEADCROP:10
+
+## 3. Quality check n°2
+
+fastqc ${i}_?P.fq.gz
+
+## 4. Create the index file
 
 STAR --runThreadN 8 --runMode genomeGenerate --genomeDir <path>/ref_genome/ \
         --genomeFastaFiles <path>/ref_genome/Leptinotarsa_decemlineata.fa \
@@ -11,9 +29,8 @@ STAR --runThreadN 8 --runMode genomeGenerate --genomeDir <path>/ref_genome/ \
 he splice junctions database. Ideally, this length should be equal to the ReadLength-1
 # The illumina reads are 150 pb long and I removed the 10th first pb, which is why sjdbOverhang=139
 
-## 2. Align the reads to the genome
+## 5. Align the reads to the genome
 
 STAR --runThreadN 8 --genomeDir <path>/ref_genome/ \
-        --readFilesIn <path>/${i}_1P.fq.gz
-, <path>/${i}_2P.fq.gz \
+        --readFilesIn <path>/${i}_1P.fq.gz, <path>/${i}_2P.fq.gz \
         --readFilesCommand zcat --outFileNamePrefix <path>/${i}.
