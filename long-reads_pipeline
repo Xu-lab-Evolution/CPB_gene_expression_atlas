@@ -1,0 +1,9 @@
+### Long read pipeline ###
+
+ccs /<path to file>/Iso23_m64291e_230226_055953.subreads.bam /<path to result>/Iso23_m64291e_230226_055953.ccs.bam
+
+lima /<path to file>/Iso23_m64291e_230226_055953.ccs.bam primers_iso_seq.fasta /<path to result>/Iso23_m64291e_230226_055953.fl.bam
+
+isoseq3 refine /<path>/Iso23_m64291e_230226_055953.fl.NEB_5p--NEB_Clontech_3p.bam /<path>/primers_iso_seq.fasta /<path to result>/Iso23_m64291e_230226_055953.fl.bam --require-polya
+
+isoseq3 cluster /<path to file>/Iso23_m64291e_230226_055953.fl.bam /<path to result>/Iso23_m64291e_230226_055953.unpolished.bam --use-qvs
