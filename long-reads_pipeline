@@ -7,3 +7,12 @@ lima /<path to file>/Iso23_m64291e_230226_055953.ccs.bam primers_iso_seq.fasta /
 isoseq3 refine /<path>/Iso23_m64291e_230226_055953.fl.NEB_5p--NEB_Clontech_3p.bam /<path>/primers_iso_seq.fasta /<path to result>/Iso23_m64291e_230226_055953.fl.bam --require-polya
 
 isoseq3 cluster /<path to file>/Iso23_m64291e_230226_055953.fl.bam /<path to result>/Iso23_m64291e_230226_055953.unpolished.bam --use-qvs
+
+pbmm2 align --preset ISOSEQ \
+        --sort /<path to file>/Iso23_m64291e_230226_055953.unpolished.hq.bam \
+        /<path to file>/Leptinotarsa_decemlineata.fa \
+        ./Iso23_m64291e_230226_055953.pbmm2.bam
+
+samtools fastq  -@ 8 $isoseq_dir/Iso23_m64291e_230226_055953.pbmm2.sorted.bam > Iso23_m64291e_230226_055953.pbmm2.sorted.fq
+
+collapse_isoforms_by_sam.py --input Iso23_m64291e_230226_055953.pbmm2.sorted.fq --fq  -b $isoseq_dir/Iso23_m64291e_230226_055953.pbmm2.sorted.bam --dun-merge-5-shorter -o Ldec.iso_seq.Cupcake.collapse --cpus 8
