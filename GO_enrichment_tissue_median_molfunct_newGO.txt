@@ -1,0 +1,113 @@
+tissue	go_id	gene_ratio	bg_ratio	p_adj	Names
+aedeagus	GO:0008010	17/107	60/12262	3.73859840270711e-20	structural constituent of chitin-based larval cuticle
+aedeagus	GO:1902936	8/107	59/12262	9.89496124035831e-07	phosphatidylinositol bisphosphate binding
+aedeagus	GO:0016614	6/107	48/12262	5.82335711559641e-05	oxidoreductase activity, acting on CH-OH group of donors
+aedeagus	GO:0016788	5/107	31/12262	8.16546487844885e-05	hydrolase activity, acting on ester bonds
+aedeagus	GO:0016830	3/107	13/12262	0.00144480938812067	carbon-carbon lyase activity
+aedeagus	GO:0016831	3/107	13/12262	0.00144480938812067	carboxy-lyase activity
+aedeagus	GO:0050660	6/107	103/12262	0.00197365862481682	flavin adenine dinucleotide binding
+aedeagus	GO:0004601	3/107	19/12262	0.00344583971168028	peroxidase activity
+aedeagus	GO:0016491	10/107	331/12262	0.00344583971168028	oxidoreductase activity
+aedeagus	GO:0005506	6/107	149/12262	0.00960623296548079	iron ion binding
+aedeagus	GO:0004497	5/107	117/12262	0.0161889226153792	monooxygenase activity
+aedeagus	GO:0008061	4/107	76/12262	0.0180251272607334	chitin binding
+aedeagus	GO:0020037	6/107	179/12262	0.0180251272607334	heme binding
+aedeagus	GO:0005549	5/107	127/12262	0.0180251272607334	odorant binding
+aedeagus	GO:0005121	2/107	13/12262	0.0184209440620504	Toll binding
+aedeagus	GO:0016405	2/107	16/12262	0.0247200093345905	CoA-ligase activity
+aedeagus	GO:0030170	3/107	48/12262	0.0247200093345905	pyridoxal phosphate binding
+aedeagus	GO:0004568	2/107	20/12262	0.0359372177320246	chitinase activity
+fat body	GO:0004312	6/44	10/12262	8.08745793409498e-12	fatty acid synthase activity
+fat body	GO:0016746	6/44	48/12262	1.64792161062573e-07	acyltransferase activity
+fat body	GO:0016740	5/44	24/12262	1.64792161062573e-07	transferase activity
+fat body	GO:0080019	5/44	28/12262	2.82762270701369e-07	alcohol-forming very long-chain fatty acyl-CoA reductase activity
+fat body	GO:0016491	8/44	331/12262	0.000102225714564198	oxidoreductase activity
+fat body	GO:0009922	3/44	18/12262	0.00014681004794453	fatty acid elongase activity
+fat body	GO:0071949	2/44	27/12262	0.0154974053038393	FAD binding
+fat body	GO:0008757	3/44	112/12262	0.0243253543580402	S-adenosylmethionine-dependent methyltransferase activity
+fat body	GO:0004497	3/44	117/12262	0.0243740555522046	monooxygenase activity
+fat body	GO:0005506	3/44	149/12262	0.0420916122575624	iron ion binding
+genital ducts	GO:0005249	4/61	33/12262	0.00109945428865701	voltage-gated potassium channel activity
+genital ducts	GO:0008061	4/61	76/12262	0.0117074020300814	chitin binding
+genital ducts	GO:0000981	8/61	402/12262	0.0117074020300814	DNA-binding transcription factor activity, RNA polymerase II-specific
+genital ducts	GO:0000978	7/61	312/12262	0.0117074020300814	RNA polymerase II cis-regulatory region sequence-specific DNA binding
+genital ducts	GO:0022841	2/61	17/12262	0.0261970168027207	potassium ion leak channel activity
+genital ducts	GO:0015271	2/61	18/12262	0.0261970168027207	outward rectifier potassium channel activity
+genital ducts	GO:0005509	5/61	215/12262	0.0261970168027207	calcium ion binding
+genital ducts	GO:0004568	2/61	20/12262	0.0261970168027207	chitinase activity
+genital ducts	GO:0005267	2/61	20/12262	0.0261970168027207	potassium channel activity
+genital ducts	GO:0005216	3/61	81/12262	0.0409839775418051	monoatomic ion channel activity
+genital ducts	GO:0004553	3/61	84/12262	0.0411742780905782	hydrolase activity, hydrolyzing O-glycosyl compounds
+hemolymph	GO:0004222	5/73	64/12262	0.00167730512966066	metalloendopeptidase activity
+hemolymph	GO:0008237	5/73	73/12262	0.00167730512966066	metallopeptidase activity
+hemolymph	GO:0005121	2/73	13/12262	0.0356890540819561	Toll binding
+hemolymph	GO:0030674	2/73	14/12262	0.0356890540819561	protein-macromolecule adaptor activity
+hemolymph	GO:0008528	2/73	20/12262	0.0479256534749612	G protein-coupled peptide receptor activity
+hemolymph	GO:0005200	2/73	21/12262	0.0479256534749612	structural constituent of cytoskeleton
+hemolymph	GO:0004930	4/73	130/12262	0.0479256534749612	G protein-coupled receptor activity
+hemolymph	GO:0004714	2/73	23/12262	0.0479256534749612	transmembrane receptor protein tyrosine kinase activity
+hindgut	GO:0000981	14/70	402/12262	2.20533639047064e-06	DNA-binding transcription factor activity, RNA polymerase II-specific
+hindgut	GO:0008010	6/70	60/12262	2.51342695947644e-05	structural constituent of chitin-based larval cuticle
+hindgut	GO:0000978	9/70	312/12262	0.000797961009128316	RNA polymerase II cis-regulatory region sequence-specific DNA binding
+hindgut	GO:0020037	7/70	179/12262	0.000797961009128316	heme binding
+hindgut	GO:0015232	3/70	18/12262	0.00125787715058213	heme transmembrane transporter activity
+hindgut	GO:0003700	6/70	184/12262	0.00477163042941885	DNA-binding transcription factor activity
+hindgut	GO:0004033	2/70	12/12262	0.0134277875249661	aldo-keto reductase (NADPH) activity
+hindgut	GO:0008528	2/70	20/12262	0.0328414278351525	G protein-coupled peptide receptor activity
+hindgut	GO:0004930	4/70	130/12262	0.0329560746415661	G protein-coupled receptor activity
+malpighian tubules	GO:0022857	49/122	326/12262	6.65206494641503e-44	transmembrane transporter activity
+malpighian tubules	GO:0042626	15/122	98/12262	1.05451836210067e-12	ATPase-coupled transmembrane transporter activity
+malpighian tubules	GO:0140359	12/122	83/12262	5.80076796626231e-10	ABC-type transporter activity
+malpighian tubules	GO:0015232	5/122	18/12262	1.04046482394275e-05	heme transmembrane transporter activity
+malpighian tubules	GO:0016887	14/122	307/12262	2.55180814301963e-05	ATP hydrolysis activity
+malpighian tubules	GO:0015293	4/122	15/12262	0.000116973828782993	symporter activity
+malpighian tubules	GO:0008194	5/122	44/12262	0.000612835992925778	UDP-glycosyltransferase activity
+malpighian tubules	GO:0020037	8/122	179/12262	0.00309422794250949	heme binding
+malpighian tubules	GO:0008028	3/122	31/12262	0.0234991663864721	monocarboxylic acid transmembrane transporter activity
+malpighian tubules	GO:0003994	2/122	11/12262	0.0305535486489881	aconitate hydratase activity
+midgut	GO:0008234	32/268	69/12262	2.35208064233757e-33	cysteine-type peptidase activity
+midgut	GO:0004650	13/268	13/12262	8.75023957346468e-21	polygalacturonase activity
+midgut	GO:0004553	22/268	84/12262	1.04606687369012e-16	hydrolase activity, hydrolyzing O-glycosyl compounds
+midgut	GO:0008810	12/268	17/12262	1.17528182557368e-15	cellulase activity
+midgut	GO:0008422	11/268	29/12262	1.94783110803248e-10	beta-glucosidase activity
+midgut	GO:0004197	10/268	24/12262	4.72825825513383e-10	cysteine-type endopeptidase activity
+midgut	GO:0005337	9/268	18/12262	5.24076308968865e-10	nucleoside transmembrane transporter activity
+midgut	GO:0016671	8/268	21/12262	8.39624715249477e-08	oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor
+midgut	GO:0008061	12/268	76/12262	8.31370381628323e-07	chitin binding
+midgut	GO:0016298	7/268	29/12262	2.05000003890162e-05	lipase activity
+midgut	GO:0004252	14/268	144/12262	2.57865724666965e-05	serine-type endopeptidase activity
+midgut	GO:0008194	7/268	44/12262	0.00031695618875961	UDP-glycosyltransferase activity
+midgut	GO:0004568	5/268	20/12262	0.000394014036775144	chitinase activity
+midgut	GO:0016787	8/268	87/12262	0.00396437919088311	hydrolase activity
+midgut	GO:0022857	15/268	326/12262	0.0314690555080214	transmembrane transporter activity
+midgut	GO:0017171	3/268	17/12262	0.0314690555080214	serine hydrolase activity
+ovaries	GO:0016614	9/205	48/12262	7.75719535515558e-06	oxidoreductase activity, acting on CH-OH group of donors
+ovaries	GO:1902936	9/205	59/12262	2.47899416525328e-05	phosphatidylinositol bisphosphate binding
+ovaries	GO:0016491	19/205	331/12262	9.03719347867257e-05	oxidoreductase activity
+ovaries	GO:0050660	10/205	103/12262	0.000198604722515581	flavin adenine dinucleotide binding
+ovaries	GO:0061630	13/205	194/12262	0.000427991811186048	ubiquitin protein ligase activity
+ovaries	GO:0020037	11/205	179/12262	0.00330436157311362	heme binding
+ovaries	GO:0031624	7/205	76/12262	0.00368353892646272	ubiquitin conjugating enzyme binding
+ovaries	GO:0000981	17/205	402/12262	0.0049848073185992	DNA-binding transcription factor activity, RNA polymerase II-specific
+ovaries	GO:0004364	4/205	28/12262	0.0119691892482698	glutathione transferase activity
+ovaries	GO:0008422	4/205	29/12262	0.012333906575754	beta-glucosidase activity
+ovaries	GO:0000978	13/205	312/12262	0.0196223078942888	RNA polymerase II cis-regulatory region sequence-specific DNA binding
+ovaries	GO:0015232	3/205	18/12262	0.0242372319551295	heme transmembrane transporter activity
+ovaries	GO:0022857	13/205	326/12262	0.0242372319551295	transmembrane transporter activity
+ovaries	GO:0016747	6/205	89/12262	0.0253187206228507	acyltransferase activity, transferring groups other than amino-acyl groups
+ovaries	GO:0000977	6/205	93/12262	0.0293435917619598	RNA polymerase II transcription regulatory region sequence-specific DNA binding
+ovaries	GO:0004386	4/205	44/12262	0.0362614888017035	helicase activity
+testes	GO:0045505	18/512	47/12262	2.99344670575049e-11	dynein intermediate chain binding
+testes	GO:0008569	15/512	35/12262	2.28269265782932e-10	minus-end-directed microtubule motor activity
+testes	GO:0051959	15/512	40/12262	1.55304407595665e-09	dynein light intermediate chain binding
+testes	GO:0008017	20/512	89/12262	2.21437976686828e-08	microtubule binding
+testes	GO:0005249	10/512	33/12262	2.08805989147688e-05	voltage-gated potassium channel activity
+testes	GO:0045504	6/512	10/12262	2.84204414869192e-05	dynein heavy chain binding
+testes	GO:0016616	13/512	64/12262	4.87227941695901e-05	oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
+testes	GO:0003777	7/512	30/12262	0.0042557797560864	microtubule motor activity
+testes	GO:0140664	5/512	16/12262	0.00749471037530646	ATP-dependent DNA damage sensor activity
+testes	GO:0008137	5/512	17/12262	0.00922995196802218	NADH dehydrogenase (ubiquinone) activity
+testes	GO:0019205	4/512	11/12262	0.0129739349151812	nucleobase-containing compound kinase activity
+testes	GO:0016849	4/512	14/12262	0.0326419237873616	phosphorus-oxygen lyase activity
+testes	GO:0016491	25/512	331/12262	0.043356477477207	oxidoreductase activity
+testes	GO:0004016	4/512	16/12262	0.0476017610427265	adenylate cyclase activity
