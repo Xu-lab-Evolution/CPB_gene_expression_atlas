@@ -1,0 +1,62 @@
+samples	conditions
+A2	aedeagus
+A4	aedeagus
+A5	aedeagus
+D1	genital ducts
+D4	genital ducts
+D5	genital ducts
+FE1	fertilized egg
+FE2	fertilized egg
+FE4	fertilized egg
+FbF2	fat body female
+FbF3	fat body female
+FbF6	fat body female
+FbM1	fat body male
+FbM5	fat body male
+FbM7	fat body male
+HF1	hindgut female
+HF4	hindgut female
+HF5	hindgut female
+HL1	hindgut larva
+HL4	hindgut larva
+HL5	hindgut larva
+HM3	hindgut male
+HM4	hindgut male
+HM5	hindgut male
+HmK3	hemolymph L4
+HmK4	hemolymph L4
+HmK5	hemolymph L4
+L1rep1	L1 larva
+L1rep2	L1 larva
+L1rep5	L1 larva
+L2rep1	L2 larva
+L2rep4	L2 larva
+L2rep5	L2 larva
+L3rep3	L3 larva
+L3rep4	L3 larva
+L3rep5	L3 larva
+MF2	midgut female
+MF3	midgut female
+MF4	midgut female
+ML3	midgut L4
+ML4	midgut L4
+ML5	midgut L4
+MM2	midgut male
+MM4	midgut male
+MM5	midgut male
+MTF1	malpighian tubules female
+MTF2	malpighian tubules female
+MTF3	malpighian tubules female
+MTM3	malpighian tubules male
+MTM4	malpighian tubules male
+MTM5	malpighian tubules male
+O1	ovaries
+O2	ovaries
+O4	ovaries
+T1	testes
+T2	testes
+T4	testes
+WFB1	white fat body L4
+WFB3	white fat body L4
+YFB2	yellow fat body L4
+YFB4	yellow fat body L4
